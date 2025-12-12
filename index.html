@@ -32,6 +32,11 @@
   max-width: 680px;
   width: 94%;
 }
+.modal .row {
+  display: flex;              /* REQUIRED — fixes warning */
+  justify-content: space-between;
+  align-items: center;
+}
     :root{
       --bg: #0b1220;
       --card: #0f1724;
@@ -217,10 +222,6 @@
       </div>
 
     </main>
-
-    <footer>
-      Built for your OS project — live dashboard connected to backend WebSocket `/ws`.
-    </footer>
   </div>
 
   <!-- Modal for process details -->
